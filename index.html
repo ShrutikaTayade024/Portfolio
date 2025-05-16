@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SHRUFOLIO</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <!-- <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description"> -->
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS + Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script>
+            (function(){
+                emailjs.init("jblV_uxbOu4NmEPzd"); // Replace with your EmailJS public key
+            })();
+        </script>
+        <style>
+
+
+
+            body { font-family: Arial, sans-serif; background: #f4f4f9; padding: 20px; }
+            .contact-container { display: flex; flex-wrap: wrap; gap: 30px; max-width: 1000px; margin: auto; align-items: flex-start; }
+            .intro-video, .contact-form { flex: 1; min-width: 300px; }
+        
+            .intro-video video { width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        
+            .contact-form { background: #ffffff; padding: 25px 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+            .contact-form h2 { margin-bottom: 15px; color: #333; }
+            .contact-form input, .contact-form textarea { width: 100%; padding: 12px; margin-bottom: 12px; border: 1px solid #ddd; border-radius: 5px; }
+            .contact-form button { background: #d51b21; color: #fff; border:#333; padding: 12px; width: 100%; cursor: pointer; border-radius: 5px; transition: background 0.3s; }
+            .contact-form button:hover { background: #bb7481; }
+            .contact-form .status { margin-top: 10px; font-size: 14px; }
+          </style>
+
+
+        
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">ShruFolio</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#service" class="nav-item nav-link">Services</a> <!-- Optional -->
+                        <a href="#experience" class="nav-item nav-link">Experience</a>
+                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>I'm</p>
+                                <h1>Shrutika Tayade</h1>
+                                <h2></h2>
+                                <div class="typed-text"> Web Developer, Front End Developer, Software  Developer, Java Developer</div>
+                            </div>
+                            <div class="hero-btn">
+                                <a class="btn" href="Shrutika Tayade resumee.pdf" target="_blank">Hire Me</a>
+                                <a class="btn" href="#contact">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="img/lapy.png" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+
+<br>
+<br>
+
+
+
+<!-- About Start -->
+<div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img">
+                    <img src="img/shrurtistan.jpg" alt="Image">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content">
+                    <div class="section-header text-left">
+                        <p>Learn About Me</p>
+                        <h2>Passionate Developer, Tester & Instructor</h2>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            I’m Shrutika, a dedicated Software Developer, Java Developer, and Programming Instructor. Currently, I’m pursuing an internship where I contribute to real-world projects while teaching programming languages such as C++ and Java to students. My approach revolves around hands-on learning and sharing knowledge to foster growth.
+                        </p>
+                        <p>
+                            With expertise in clean code practices, automation testing, and continuous improvement, I strive to enhance both my technical skills and mentoring abilities. I also possess strong knowledge of SQL and database management, and I work as a tester, ensuring high-quality software solutions.
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name"><p>Software Development</p><p>90%</p></div>
+                        <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div>
+                        <div class="skill-name"><p>Web Development</p><p>80%</p></div>
+                        <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div>
+                        <div class="skill-name"><p>Teaching & Mentoring</p><p>95%</p></div>
+                        <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div></div>
+                        <div class="skill-name"><p>SQL & Database</p><p>85%</p></div>
+                        <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+                        <div class="skill-name"><p>Automation Testing</p><p>90%</p></div>
+                        <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div>
+                    </div>
+                    <!-- Button -->
+          <!-- <a class="btn btn-outline-primary mt-3" href="Shrutika Tayade resumee.pdf" target="_blank">
+            <i class="fas fa-download me-2"></i> Download Resume
+          </a> -->
+
+          <a class="btn btn-outline-primary mt-3" href="Shrutika Tayade resumee.pdf" download="Shrutika_Tayade_Resume.pdf">
+            <i class="fas fa-download me-2"></i> Download Resume
+        </a>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+   
+<!-- Service Start -->
+<div class="service" id="service">
+    <div class="container">
+        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p>What I Do</p>
+            <h2>Awesome Quality Services</h2>
+        </div>
+        <div class="row">
+            <!-- Web Development -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-laptop-code"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Web Development</h3>
+                        <p>
+                            I specialize in creating dynamic and responsive websites using the latest technologies like HTML, CSS, JavaScript, and React. I ensure that every website is fully responsive and optimized for all devices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Automation Testing -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-cogs"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Automation Testing</h3>
+                        <p>
+                            I use Selenium WebDriver with Java to automate testing for web applications, ensuring high-quality software through detailed and efficient testing practices, covering functional, regression, and performance testing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Java Development -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Java Development</h3>
+                        <p>
+                            I have experience in developing backend systems using Java and Servlet. Whether it's building scalable systems or creating microservices, I ensure efficient and maintainable code.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- SQL & Database Management -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-database"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>SQL & Database Management</h3>
+                        <p>
+                            I am design and manage databases, optimize SQL queries, and ensure data integrity. Whether it's relational databases like MySQL or NoSQL databases, I can handle all database-related tasks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Teaching -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="1.0s">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fa fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Teaching & Mentoring</h3>
+                        <p>
+                            I am passionate about teaching and sharing my knowledge. I offer tutoring and mentorship in Java, C and C++. Whether you're a beginner or looking to deepen your skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+      
+
+          <!-- Experience Start -->
+<div class="experience" id="experience">
+    <div class="container">
+        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p>My Resume</p>
+            <h2>Working Experience</h2>
+        </header>
+        <div class="timeline">
+         
+<div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+    <div class="timeline-text">
+        <div class="timeline-date">Jan 2025 - Present</div>
+        <h2>Software Developer Intern</h2>
+        <h4>GPT Software</h4>
+        <p>
+            I am currently doing an internship at <strong>GPT Software</strong> as a <strong>Software Developer</strong>. I work on developing and maintaining web applications using technologies like <strong>Java</strong>, <strong>Spring Boot</strong>, and <strong>MySQL</strong>. I contribute to real-time projects such as a real estate portal and an ice cream parlour system, ensuring efficient backend development and smooth integration with frontend components.
+        </p>
+    </div>
+</div>
+
+        <!-- Experience 2: Programming Instructor -->
+<div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+    <div class="timeline-text">
+        <div class="timeline-date">March 2025 - Present</div>
+        <h2>Programming Instructor</h2>
+        <h4>Coaching Institute</h4>
+        <p>
+            I work as a <strong>Programming Instructor</strong> at a coaching institute, where I teach <strong>C</strong>, <strong>C++</strong>, and <strong>Java</strong> to students. My focus is on helping learners build a strong foundation in programming concepts and guiding them toward becoming skilled developers.
+        </p>
+    </div>
+</div>
+
+            <!-- Experience 5: Freelance Web Developer (Trading Institute) -->
+            <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                <div class="timeline-text">
+                    <div class="timeline-date">Feb 2025 </div>
+                    <h2>Freelance Web Developer</h2>
+                    <h4>Trading Institute</h4>
+                    <p>
+                        As a freelancer, I create websites for a trading institute, working closely with the team to develop custom websites that meet their needs. I ensure the sites are functional, user-friendly, and aligned with the institute's goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Experience End -->
+
+<style>
+    /* Portfolio Heading */
+.section-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Filter Buttons */
+#portfolio-filter .list-inline-item {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#portfolio-filter .filter-active,
+#portfolio-filter .list-inline-item:hover {
+    background-color: white;
+    color: #e50914;
+    border: 2px solid #e50914;
+}
+
+/* Portfolio Item Wrap */
+.portfolio-wrap {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.portfolio-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Portfolio Text Box */
+.portfolio-text {
+    position: absolute;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.05);
+}
+
+.portfolio-text h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+}
+
+/* Plus Button */
+.portfolio-text .btn {
+    background: white;
+    border: 2px solid #e50914;
+    color: #e50914;
+    border-radius: 0;
+    font-size: 24px;
+    padding: 0 10px;
+    line-height: 1;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.portfolio-text .btn:hover {
+    background: #e50914;
+    color: white;
+}
+
+.portfolio-wrap img {
+    width: 100%;
+    height: 250px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures cropping instead of distortion */
+    display: block;
+}
+
+
+</style>
+
+
+<!-- Portfolio Start -->
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p>My Portfolio</p>
+            <h2>Real-World Projects & Experience</h2>
+        </div>
+        <div class="row text-center mb-4">
+            <div class="col-12">
+                <ul id="portfolio-filter" class="list-inline">
+                    <li class="list-inline-item filter-active" data-filter="*">All</li>
+                    <li class="list-inline-item" data-filter=".filter-web">Web Development</li>
+                    <li class="list-inline-item" data-filter=".filter-automation">Automation</li>
+                    <li class="list-inline-item" data-filter=".filter-teaching">Teaching</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row portfolio-container">
+
+            <!-- GPT Internship -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-automation">
+                <div class="portfolio-wrap">
+                    <img src="img/lg.png" class="img-fluid" alt="GPT Internship">
+                    <div class="portfolio-text">
+                        <h3>GPT Software <br> <a href="https://gptsoftwares.in/" target="_blank">Visit Site</a></h3>
+                        <!-- <p>Used Selenium with Java to automate tests for real-time applications.</p>   -->
+                        <a class="btn" href="#" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#projectModal" 
+                        data-title="GPT Software Internship"
+                        data-description="Used Selenium with Java to automate tests for real-time applications."
+                        data-image="img/logo.png"
+                        data-link="https://gptsoftwares.in/">+</a>  
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trading Website -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="img/intrili.png" class="img-fluid" alt="Trading Website">
+                    <div class="portfolio-text">
+                        <h3>Intrili Trading Institute </h3>
+                        <!-- <p>Freelance project for a stock market course platform. Built with a custom layout & CMS.</p> -->
+                        <a class="btn" href="#" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#projectModal" 
+                        data-title="Intrili Training Institute"
+                        data-description="Freelance project for a stock market course platform. Built with a custom layout HTML , CSS, JS and Bootstrap."
+                        data-image="img/smart trader.jpg"
+                        data-link="https://github.com/ShrutikaTayade024/Intrili-Academy">+</a>  
+                    </div>
+                </div>
+            </div>
+
+            <!-- Karyam Real Estate Portal -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="img/hall-img-2.webp" class="img-fluid" alt="Karyam Real Estate">
+                    <div class="portfolio-text">
+                        <h3>Real Estate Portal</h3>
+                        <!-- <p>End-to-end real estate web portal using Java backend, MySQL, and responsive frontend.</p> -->
+                        <a class="btn" href="#" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#projectModal" 
+                        data-title="Real Estate Portal"
+                        data-description="End-to-end real estate web portal using Java backend, MySQL, and responsive frontend."
+                        data-image="img/hall-img-1.webp"
+                        data-link="https://github.com/ShrutikaTayade024">+</a>                      </div>
+                </div>
+            </div>
+
+            <!-- Gym Website -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="img/gallery4.jpg" class="img-fluid" alt="Gym Website">
+                    <div class="portfolio-text">
+                        <h3>Gym & Fitness Website</h3>
+                        <p></p> 
+                        
+                        <a class="btn" href="#" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#projectModal" 
+                        data-title="Gym & Fitness Website"
+                        data-description="Responsive website for a gym business featuring schedules, plans, and inquiry forms."
+                        data-image="img/gallery1.jpg"
+                        data-link="https://github.com/ShrutikaTayade024/Gym-Website">+</a> 
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- MaryGold Holidays Website -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="img/marygold.png" class="img-fluid" alt="MaryGold Holidays">
+                    <div class="portfolio-text">
+                        <h3>MaryGold Holidays
+                             <a href="https://www.marigoldholidays.com/book.html" target="_blank">
+                                <br>
+                                Visit Site</a></h3>
+                        <a class="btn" href="#" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#projectModal" 
+                        data-title="MaryGold Holidays Website"
+                        data-description="Developed a travel booking website with dynamic tour listings, contact forms, and payment integration.
+                        Ensured responsive design for seamless user experience across all devices."
+                        data-image="img/marygold.png"
+                        data-link="https://www.marigoldholidays.com/book.html">+</a> 
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ice Cream Website -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-automation">
+                <div class="portfolio-wrap">
+                    <img src="img/i1.jpeg" class="img-fluid" alt="Ice Cream">
+                    <div class="portfolio-text">
+                        <h3>Kalyani Ice Cream Parlour</h3>
+                        <!-- <p>Business website with gallery, product listing, and contact form.</p> -->
+                        
+                        <a class="btn" href="#" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#projectModal" 
+                        data-title="MaryGold Holidays Website"
+                        data-description="Business website with gallery, product listing, and contact form. This is group project I work on frontend and Test the website working without any bug or error"
+                        data-image="img/jalebi.jpg"
+                        data-link="https://www.marigoldholidays.com/book.html">+</a> 
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teaching Project -->
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-teaching">
+                <div class="portfolio-wrap">
+                    <img src="img/student-project.jpg" class="img-fluid" alt="Teaching">
+                    <div class="portfolio-text">
+                        <h3>Student Portfolio Guide</h3>
+                        <p>Guided students in building responsive personal portfolios using HTML/CSS.</p>
+                        <a class="btn" href="img/student-project.jpg" data-lightbox="portfolio">+</a>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+</div>
+<!-- Portfolio End -->
+<!-- Project Details Modal -->
+<div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="projectModalLabel">Project Title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="" class="img-fluid mb-3" id="modalImage" alt="Project">
+          <p id="modalDescription">Project description goes here.</p>
+          <a href="#" target="_blank" id="modalLink" class="btn btn-primary mt-2">Visit Site</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+    <br>
+        
+
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h2 class="section-title mb-2" style="color: brown;"><b>Contact Me</b></h2>
+            <form id="contactForm" class="contact-form col-md-10 col-lg-8 m-auto">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" id="name" class="form-control" placeholder="Your Name" required>                 
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" id="email" class="form-control" placeholder="Enter Email" required>                 
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea id="message" rows="6" class="form-control" placeholder="Write Something" required></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
+                    </div>
+                    <p class="status" id="status"></p>
+                </div>  
+            </form>
+        </div>
+    </section>
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+    
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+            const status = document.getElementById('status');
+    
+            status.textContent = "Sending...";
+            status.style.color = "red";
+    
+            if (!name || !email || !message) {
+                status.textContent = "Please fill all required fields.";
+                status.style.color = "red";
+                return;
+            }
+    
+            emailjs.send("service_p46w3yb", "template_98odiab", {
+                name: name,
+                email: email,
+                message: message
+            }).then((response) => {
+                console.log("SUCCESS:", response);
+                status.textContent = "Message sent successfully!";
+                status.style.color = "green";
+                document.getElementById('contactForm').reset();
+            }).catch((error) => {
+                console.error("ERROR:", error);
+                status.textContent = "Failed to send message. Please try again.";
+                status.style.color = "red";
+            });
+        });
+    </script>
+
+
+
+
+
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h2>Shrutika Tayade</h2>
+                        <h3>Amravati, Maharashtra, India</h3>
+                        <div class="footer-menu">
+                            <p>9359371306</p>
+                            <p>shrutikatayade024@gmail.com</p>
+                        </div>
+                        <div class="footer-social">
+
+                            <a href="https://github.com/ShrutikaTayade024"><i class="fab fa-github"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/__itz_shru__/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/shrutika-tayade-79a342287/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <p>&copy; <a href="https://www.linkedin.com/in/shrutika-tayade-79a342287/">Shrutika's Portfolio</a>, All Right Reserved | Designed By <a href="https://www.linkedin.com/in/shrutika-tayade-79a342287/">Shrutika</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+
+        <script>
+            function validateForm() {
+                const name = document.getElementById("name").value.trim();
+                const email = document.getElementById("email").value.trim();
+                const subject = document.getElementById("subject").value.trim();
+                const message = document.getElementById("message").value.trim();
+    
+                if (!name || !email || !subject || !message) {
+                    alert("All fields are required.");
+                    return false;
+                }
+    
+                if (!/^[\w-.]+@[\w-]+\.[a-z]{2,}$/i.test(email)) {
+                    alert("Please enter a valid email.");
+                    return false;
+                }
+    
+                alert("Message sent successfully!");
+                return true;
+            }
+        </script>
+
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var projectModal = document.getElementById('projectModal');
+                projectModal.addEventListener('show.bs.modal', function (event) {
+                    var button = event.relatedTarget;
+                    var title = button.getAttribute('data-title');
+                    var description = button.getAttribute('data-description');
+                    var image = button.getAttribute('data-image');
+                    var link = button.getAttribute('data-link');
+            
+                    projectModal.querySelector('.modal-title').textContent = title;
+                    projectModal.querySelector('#modalDescription').textContent = description;
+                    projectModal.querySelector('#modalImage').src = image;
+                    projectModal.querySelector('#modalLink').href = link;
+                });
+            });
+            </script>
+            
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
